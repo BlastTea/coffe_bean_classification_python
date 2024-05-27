@@ -1,15 +1,15 @@
 import tensorflow as tf
-from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
-from keras.optimizers import Adam
+from keras._tf_keras.keras.models import Sequential
+from keras._tf_keras.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
+from keras._tf_keras.keras.optimizers import Adam
 from sklearn.model_selection import train_test_split
-from keras.utils import to_categorical, load_img, img_to_array
+from keras._tf_keras.keras.utils import to_categorical, load_img, img_to_array
 import pandas as pd
 import numpy as np
 import os
 
 # Load dataset
-data = pd.read_csv('coffe_model/Coffee Bean.csv')
+data = pd.read_csv('coffe_model/Coffee Bean 2.csv')
 
 # Preprocess function to load images
 def preprocess_image(file_path):

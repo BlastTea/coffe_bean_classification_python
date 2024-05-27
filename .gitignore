@@ -1,2 +1,5 @@
 /coffe_model/
 /outputs/
+
+*.tflite
+coffe_model.zip
